@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.container{
+    max-width: 1280px;
+    margin:  auto;
+}
+
+.header-section{
+    padding-top: 60px;
+    background: url(../image/fon.png) no-repeat center/cover;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.menu-item {
+    margin: 0 25px;
+    
+}
+.logo{
+    margin-left: 50px;
+}
+.menu-link {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    line-height: 160%;
+    opacity: 0.6;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+}
+.header-main-text{
+   color: white;
+   font-family: "Josefin Sans", sans-serif;
+   font-size: 44px; 
+}
+.main-description{
+    color:#CDCDCD ;
+    margin-top: 42px;
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+    
+}
+.button-header{
+padding: 15px 45px;
+margin-top: 42px;
+border-radius: 20px;
+background-color: #F1CDB3;
+font-size: 17px;
+}
+.block1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 160px;
+    
+}
+.Block1-main{
+    color:#545454;
+   font-family: "Josefin Sans", sans-serif;
+   font-size: 44px; 
+}
+.block1-description{
+    color:#545454;
+   font-family: "Josefin Sans", sans-serif;
+   font-size: 18px; 
+   margin-top:30px ;
+}
+.block2{
+    padding-top: 60px;
+    background: #F6F6F6;
+    background-size: cover;
+
+}
+.button-block2{
+    padding: 15px 45px;
+margin-top: 42px;
+border-radius: 30px;
+border:2px solid #F1CDB3;
+font-size: 17px;
+flex-wrap: wrap;
+  
+}
+.pet-name{
+    color:#545454;
+    font-family: "Josefin Sans" sans-serif;
+    font-size: 20px;
+  font-weight: 400;
+    margin-top: 30px;
+    text-align: center;
+}
+.container2{
+    width:270px ;
+    height: 435px;
+    background-color: #ffffff;
+}
+.button2{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.offers-wrap {
+    display: flex;
+    justify-content: space-between;
+   
+    gap: 90px;
+}
+.block2-main{
+    text-align: center;
+    color:#545454;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 44px; 
+}
+.icons-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+}
+
+.icons-content{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-content h2{
+    color: #545454;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.icons{
+    justify-content: space-between;
+    display: flex;
+    gap: 120px;
+    margin-top: 60px;
+}
+
+.icon{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon p{
+    margin-top: 30px;
+    color: #545454;
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+.donation-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 160px;
+}
+.donation-section-content h2{
+    color: #545454;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 300;
+}
+.donation-section-content h3{
+    font-weight: 30;
+    font-size: 15;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.donation-section-content h4{
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: #999999;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.footer-section{
+    background: url(../image/footer-gradient-background.png) no-repeat center/cover;
+    background-size: cover;
+}
+
+.footer-content{
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+.footer-icons{
+    width: 32px;
+    margin-right:20px ;
+}
+
+.footer1 h2{
+font-size: 35px;
+font-weight: 10;
+color: #ffffff;
+margin-bottom:40px ;
+}
+
+.icons-text{
+    color: #F1CDB3;
+    font-size: 20px;
+}
+
+.footer2 h3{
+    font-size: 35px;
+font-weight: 10;
+color: #ffffff;
+margin-bottom:40px ;
+}
+.geo-icons{
+    margin-right:20px ;
+    
+}
+
+.icon-text{
+    color: #F1CDB3;
+    font-size: 20px;
+    margin-top: 20px; 
+}
+.footer-main{
+    margin-top:56px ;
+}
